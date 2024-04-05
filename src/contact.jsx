@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
     return (
         <>
-            <section className="container mx-auto px-10 mt-[5rem] lg:mt-[8rem] mb-8" id="contact">
+            <section className="container mx-auto px-10 mt-[5rem] lg:mt-[8rem] mb-8" id="contact" >
                 <div className="w-full">
                     <div className="underline-head mt-10 text-xl md:text-2xl lg:text-3xl font-bold ">Hire me</div>
                     <p className="mt-1 md:text-lg">Contact me through the following means</p>

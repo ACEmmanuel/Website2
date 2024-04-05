@@ -5,14 +5,13 @@ import { useState } from "react";
 const Hero = () => {
     return (
         <>
-            <Header />
-                <div className="container flex flex-wrap mx-auto md:flex-row  px-8 items-center justify-center h-[90vh]">
-                    <div className="w-full text-center">
+            {/* <Header /> */}
+                <div className="container flex flex-wrap mx-auto md:flex-row px-5 items-center justify-center h-[100vh]">
+                    <div className="w-full text-center ">
                             <h1 className="text-4xl md:text-6xl lg:text-7xl leading-none capitalize cursor-pointer font-bold">Bringing your design to life</h1>
                             <p className="text-md md:text-md lg:text-xl mt-6 md:px-8">Frontend Web Developer specializing in websites and web apps. Explore my work and reach out for job opportunities.</p>
                             <div className="flex md:flex-row flex-column flex-wrap gap-3 justify-center lg:mt-[4rem] mt-[3rem] "> 
-                            <a href="./man.jpg" download="ACEmmanuel CV"> <div className="btn">Download CV</div> </a>
-                                <div className="btn-bdr">Hire Me</div>
+                                <a href="#contact"> <div className="btn">Hire Me</div> </a>
                             </div>  
                     </div>  
                     {/* <div className="max-w-md lg:w-[40%]" >

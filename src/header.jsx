@@ -3,7 +3,7 @@ import {React, useState, useEffect} from "react";
 
 const Header = () => {
 
-    const [active, setActive] = useState(true);
+    const [active, setActive] = useState(false);
       
 
     const toggleMenu = () => {
@@ -26,20 +26,27 @@ const Header = () => {
     return (
         <>  
             <header className="bg-[#17171ff] sticky top-0 z-10">
-                <div className="container mx-auto relative">
+                <div className="container mx-auto relative ">
                     <div className="flex justify-between items-center py-8 px-8 z-10 backdrop-blur">
                         
                             <h2 className="text-xl md:text-2xl"><span className="font-bold ">ACE</span>mmanuel</h2>
                         
-                        <nav>
+                        <nav className="">
                             <ul className="hidden gap-8 md:flex text-md">
                                 <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#hero">Home</a></li>
                                 <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#about">About</a></li>
                                 <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#work">Portfolio</a></li>
                                 <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#contact">Contact</a></li>
                             </ul>
-                            <div className="relative">
-                                {active ? <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-menu text-2xl' ></i> </span> : <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-x text-2xl'></i> </span> }
+                            <div className="">
+                                {active ? <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-x text-2xl'></i> </span> :  <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-menu text-2xl' ></i> </span>}
+                                
+                                {active && (
+                                    <div className="modal" onClick={toggleMenu}>
+                                        <div><i class='bx bx-x-circle text-[4rem]'></i></div>
+                                    </div>
+                                )}
+
                             </div>
                             {/* <div className="absolute bottom-0 left-0 w-full h-[400rem] ">
                                 {active && (

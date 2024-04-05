@@ -127,7 +127,11 @@
     }
 
     .modal{
-        @apply overflow-hidden bg-red-600 text-lg;
+        @apply container mx-auto absolute overflow-hidden w-full left-0 top-0 h-[100vh] bg-[#17171f] text-lg grid place-content-center;
+    }
+
+    .radial{
+        background-image: radial-gradient(circle at center center, rgba(40, 33, 141, 0.171) 0%, #17171f 50%);
     }
 }
 

@@ -50,7 +50,7 @@
     }
 
     .centerly {
-        @apply font-bold text-lg;
+        @apply font-bold text-xl font-DM;
     }
     
     .image{
@@ -66,7 +66,7 @@
         position: absolute;
         width: 40px;
         height: 6px;
-        background-color: rgb(41, 41, 238);
+        background-color: #1E40AF;
         border-radius: 3px;
         top: -1rem;
     }
@@ -94,11 +94,11 @@
     }
 
     .label{
-        @apply font-bold;
+        @apply font-medium text-xl;
     }
 
     .btn{
-        @apply bg-blue-600 font-bold px-12 py-[1rem] rounded-sm text-white hover:bg-blue-400 text-center cursor-pointer;
+        @apply bg-blue-800 font-medium px-14 py-[.8rem] lg:py-[1rem] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[17px] ;
     }
 
     .btn-bdr{

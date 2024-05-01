@@ -42,8 +42,15 @@ const Header = () => {
                                 {active ? <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-x text-2xl'></i> </span> :  <span className="md:hidden" onClick={toggleMenu}> <i class='bx bx-menu text-2xl' ></i> </span>}
                                 
                                 {active && (
-                                    <div className="modal" onClick={toggleMenu}>
-                                        <div><i class='bx bx-x-circle text-[4rem]'></i></div>
+                                    <div className="modal">
+                                        <div><i class='bx bx-x-circle text-[4rem] absolute top-2 right-2' onClick={toggleMenu}></i></div>
+                                        <br />
+                                        <div onClick={toggleMenu}><a href="#home">HOME</a></div>
+                                        <br />
+                                        <div onClick={toggleMenu}><a href="#home">HOME</a></div>
+                                        <br />
+                                        <div onClick={toggleMenu}><a href="#contact">HOME</a></div>
+                                        <br />
                                     </div>
                                 )}
 

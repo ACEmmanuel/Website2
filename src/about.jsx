@@ -6,18 +6,18 @@ const About = () => {
             
             <section class="container mx-auto px-10 mt-[4rem] lg:mt-[4rem] mb-8" id="about">
 
-                <div className="underline-head mt-10 text-xl md:text-2xl lg:text-3xl font-bold ">About Me</div>
-                <p className="mt-1 md:text-lg">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+                <div className="underline-head mt-10 text-3xl lg:text-3xl font-medium font-rale">About Me</div>
+                <p className="mt-1 text-[17px] text-white/80">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
 
                 <div class="flex flex-col md:flex-row  w-full gap-14 mt-8">
                         <div className=" max-w-[20rem]">
                             <img src="./web-dev.jpg" className="rounded-md"/>
                         </div>
                         <div className="max-w-sm lg:max-w-xl text-left flex flex-col justify-center">
-                            <div className="mb-3 font-bold capitalize text-lg">
+                            <div className="mb-3 font-rale capitalize text-lg font-bold">
                                 A dedicated front-end Developer based in anambra, nigeria.
                             </div>
-                            <div className="capitalize md:text-lg text-balance lg:mb-16 mb-5">
+                            <div className="text-balance lg:mb-16 mb-5">
                                 I'm a Junior Front-End Developer from Anambra, Delta State. Skilled in HTML, CSS, JavaScript, React, and Tailwind, I specialize in creating responsive websites for seamless user experiences. 
                                 <br />
                                 I focus on writing clean, efficient code and enjoy collaborating with diverse teams to build outstanding web applications.

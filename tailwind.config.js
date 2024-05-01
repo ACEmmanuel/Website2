@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Lato: ["Lato", "sans-serif"],
+        'DM' : ["DM Sans", "sans-serif"],
+        'inter' : ["Inter", "sans-serif"],
+        'rale' : ["Raleway", "sans-serif"]
       },
     },
   },

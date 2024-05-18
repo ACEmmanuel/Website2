@@ -16,7 +16,7 @@ const Work = () => {
                       <div><i class='bx bxl-react text-3xl' ></i></div>
                     </div>
 
-                    <a href='sokky.vercel.app' target='_blank'><div className='bttn'>CHECK</div></a>
+                    <a href='https://sokky.vercel.app/' target='_blank'><div className='bttn'>CHECK</div></a>
 
                   </div>
                 </div> 
@@ -35,7 +35,7 @@ const Work = () => {
                     </div>
 
 
-                    <a href='www.syzn.vercel.app' target='_blank'><div className='bttn'>CHECK</div></a>
+                    <a href='https://syzn.vercel.app/' target='_blank'><div className='bttn'>CHECK</div></a>
 
                   </div>
                 </div> 

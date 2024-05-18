@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
     return(
         <>
-            
-            <section class="container mx-auto px-10 mt-[4rem] lg:mt-[4rem] mb-8" id="about">
+             
+            <section class="container mx-auto px-5 mt-[4rem] lg:mt-[4rem] mb-8 " id="about">
 
-                <div className="underline-head mt-10 text-3xl lg:text-3xl font-medium font-rale">About Me</div>
+                <div className="underline-head mt-10 text-2xl lg:text-3xl font-medium font-rale">About Me</div>
                 <p className="mt-1 text-[17px] text-white/80">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
 
                 <div class="flex flex-col md:flex-row  w-full gap-14 mt-8">

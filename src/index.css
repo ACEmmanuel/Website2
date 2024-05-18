@@ -94,7 +94,7 @@
     }
 
     .label{
-        @apply font-medium text-xl;
+        @apply font-medium text-lg md:text-xl;
     }
 
     .btn{
@@ -112,6 +112,23 @@
     .shadow-square{
         @apply relative z-10 rounded-md;
     }
+    
+    .modal{
+        @apply container mx-auto absolute overflow-hidden w-full left-0 top-0 h-[100vh] bg-[#17171f] text-lg grid place-content-center;
+    }
+
+    .radial{
+        background-image: radial-gradient(circle at center center, rgba(40, 33, 141, 0.171) 0%, #17171f 50%);
+    }
+
+    .bttn{
+        @apply bg-blue-800 font-medium px-7 py-[5px] lg:py-[7px] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[17px] border-4 border-gray-400 hover:border-white;
+    }
+
+
+
+
+
 
     .shadow-square::before{
         content: '';
@@ -126,13 +143,8 @@
         border-radius: .3rem;
     }
 
-    .modal{
-        @apply container mx-auto absolute overflow-hidden w-full left-0 top-0 h-[100vh] bg-[#17171f] text-lg grid place-content-center;
-    }
+    
 
-    .radial{
-        background-image: radial-gradient(circle at center center, rgba(40, 33, 141, 0.171) 0%, #17171f 50%);
-    }
 }
 
 

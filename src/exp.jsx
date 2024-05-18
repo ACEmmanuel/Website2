@@ -4,19 +4,19 @@ const Exp = () => {
     return (
         <>
             <section className="container mx-auto mt-[6rem] lg:mt-[10rem]" id="exp">
-                <div className="w-full px-10">
-                    <h1 className="underline-head mt-10 text-3xl lg:text-3xl font-medium font-rale">My Experience</h1>
+                <div className="w-full px-5">
+                    <h1 className="underline-head mt-10 text-2xl lg:text-3xl font-medium font-rale">My Experience</h1>
                     <p className="mt-1 text-[17px] text-white/80">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
 
                                 {/* double column */}
-                    <div className="flex flex-wrap justify-start items-center lg:flex-row mt-8 gap-x-28 py-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-start items-start mt-14">
 
 
                                 {/* first section */}
-                        <div className="md:w-1/2 max-w-sm mt-4 ">
+                        <div className=" max-w-[25rem] ">
                             <div className="centerly underline-head1 ">EDUCATION</div>
                             <br />  
-                                <div className="parent border-l-2 border-slate-300 pl-[2.5rem] md:pl-[4rem] text-gray-100"> 
+                                <div className="parent border-l-2 border-slate-300 pl-[2.2rem] md:pl-[4rem] text-gray-100"> 
                                     <div className="content rounded-lg mb-4">
                                         <div className="parent border border-slate-700 bg-gray-800">
                                             <div className="contentLine px-8 py-4">
@@ -51,14 +51,14 @@ const Exp = () => {
                             </div>    
                         </div>
 
-                        <br />
+                        {/* <br /> */}
  
                                 {/* second section */}
                                 
-                        <div className="md:w-1/2 max-w-sm mt-4 mb-8">
+                        <div className=" max-w-[25rem]">
                             <div className="centerly underline-head1">EXPERIENCES</div>
                             <br />
-                                <div className="parent border-l-2 border-slate-300 pl-[2.5rem] md:pl-[4rem] text-gray-100 "> 
+                                <div className="parent border-l-2 border-slate-300 pl-[2.2rem] md:pl-[4rem] text-gray-100 "> 
                                     <div className="content rounded-lg mb-4">
                                         <div className="parent bg-[blue]">
                                             <div className="contentLine px-8 py-4">

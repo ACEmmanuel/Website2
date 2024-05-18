@@ -3,9 +3,9 @@ import React from "react";
 const Contact = () => {
     return (
         <>
-            <section className="container mx-auto px-10 mt-[5rem] lg:mt-[8rem] mb-8" id="contact" >
+            <section className="container mx-auto px-5 mt-[5rem] lg:mt-[8rem] mb-8" id="contact" >
                 <div className="w-full">
-                    <div className="underline-head mt-10 text-3xl lg:text-3xl font-medium font-rale ">Hire me</div>
+                    <div className="underline-head mt-10 text-2xl lg:text-3xl font-medium font-rale ">Hire me</div>
                     <p className="mt-1 text-[17px] text-white/80">Contact me through the following means</p>
 
 

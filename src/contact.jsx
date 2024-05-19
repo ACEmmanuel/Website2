@@ -55,7 +55,7 @@ const Contact = () => {
                                 <a href='https://ahanotuemmanuel7@gmail.com/' target='_blank'>
                                     <i class='bx bxl-gmail' ></i>
                                 </a> 
-                                <a href='https://syzn.vercel.app/' target='_blank'>  
+                                <a href='https://www.linkedin.com/in/emmanuel-chidera-b08479245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andriod_app' target='_blank'>  
                                     <i class='bx bxl-linkedin'></i>
                                 </a> 
                             </div>

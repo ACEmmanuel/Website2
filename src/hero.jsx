@@ -11,6 +11,8 @@ const Hero = () => {
                             <h1 className="text-[3.5rem] leading-none lg:text-7xl capitalize cursor-pointer font-medium font-rale">Bring your design to life</h1>
                             <p className="text-[17px] lg:text-[20px] mt-4">Frontend Web Developer specializing in websites and web apps.</p>
 
+
+
                             <div className="flex md:flex-row justify-center mt-[1.2rem] lg:mt-[2rem]"> 
                                 <a href="#contact"> <div className="btn border-4 border-gray-400 hover:border-white">Hire Me</div> </a>
                             </div>  

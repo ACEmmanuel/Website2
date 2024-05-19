@@ -98,7 +98,7 @@
     }
 
     .btn{
-        @apply bg-blue-800 font-medium px-14 py-[.8rem] lg:py-[1rem] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[17px] ;
+        @apply bg-blue-800 font-medium px-14 py-[.8rem] lg:py-[1rem] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[15px] md:text-[17px] ;
     }
 
     .btn-bdr{

@@ -9,14 +9,18 @@ const Work = () => {
                 <div className='size-[100%] bg-gradient-to-t from-black absolute bottom-0 pt-[83%] md:pt-[88%] p-5'>
                   <div className='flex flex-row justify-between items-center'>
 
-                    <div className='flex flex-row justify-between items-center text-blue-600'>
-                      <p className=' text-nowrap mr-6 font-bold text-lg text-white'>CODE USED</p>
-                      <div><i class='bx bxl-html5 text-3xl'></i></div>
-                      <div><i class='bx bxl-tailwind-css text-3xl'></i></div>
-                      <div><i class='bx bxl-react text-3xl' ></i></div>
+                    <div className='flex flex-row justify-between items-center text-blue-400'>
+                      <p className=' text-nowrap mr-6 font-bold text-lg text-white hidden md:block'>CODE USED</p>
+                      <div><i class='bx bxl-html5 text-2xl md:text-3xl'></i></div>
+                      <div><i class='bx bxl-tailwind-css text-2xl md:text-3xl'></i></div>
+                      <div><i class='bx bxl-react text-2xl md:text-3xl' ></i></div>
                     </div>
 
-                    <a href='https://sokky.vercel.app/' target='_blank'><div className='bttn'>CHECK</div></a>
+                    <a href='https://sokky.vercel.app/' target='_blank'>
+                      <div className='bttn grid place-content-center'>
+                        <i class='bx bxs-chevrons-right'></i>
+                      </div>
+                    </a>
 
                   </div>
                 </div> 
@@ -27,15 +31,19 @@ const Work = () => {
                 <div className='size-[100%] bg-gradient-to-t from-black absolute bottom-0 pt-[83%] md:pt-[88%] p-5'>
                   <div className='flex flex-row justify-between items-center'>
 
-                    <div className='flex flex-row justify-between items-center text-blue-600'>
-                      <p className=' text-nowrap mr-6 font-bold text-lg text-white'>CODE USED</p>
-                      <div><i class='bx bxl-html5 text-3xl'></i></div>
-                      <div><i class='bx bxl-tailwind-css text-3xl'></i></div>
-                      <div><i class='bx bxl-react text-3xl' ></i></div>
+                    <div className='flex flex-row justify-between items-center text-blue-400'>
+                      <p className=' text-nowrap mr-6 font-bold text-lg text-white hidden md:block'>CODE USED</p>
+                      <div><i class='bx bxl-html5 text-2xl md:text-3xl'></i></div>
+                      <div><i class='bx bxl-tailwind-css text-2xl md:text-3xl'></i></div>
+                      <div><i class='bx bxl-react text-2xl md:text-3xl' ></i></div>
                     </div>
 
 
-                    <a href='https://syzn.vercel.app/' target='_blank'><div className='bttn'>CHECK</div></a>
+                    <a href='https://syzn.vercel.app/' target='_blank'>
+                      <div className='bttn grid place-content-center'>
+                        <i class='bx bxs-chevrons-right '></i>
+                      </div>
+                    </a>
 
                   </div>
                 </div> 

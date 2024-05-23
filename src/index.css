@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
 @layer base{
-    body{
-        scroll-behavior: smooth;
-    }
 
     body.modal-active {
         overflow: hidden;
@@ -90,7 +93,7 @@
     }
 
     .text-box{
-        @apply w-full h-12 border border-slate-700 bg-gray-800 outline-none pl-4;
+        @apply w-full h-12 border border-slate-700 bg-gray-800 outline-none pl-4 rounded-sm;
     }
 
     .label{
@@ -122,7 +125,7 @@
     }
 
     .bttn{
-        @apply bg-blue-800 font-medium px-7 py-[5px] lg:py-[7px] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[17px] border-4 border-gray-400 hover:border-white;
+        @apply bg-blue-800 font-medium px-7 py-[5px] lg:py-[7px] rounded-full text-white hover:bg-blue-600 text-center cursor-pointer text-[17px] border-4 border-gray-400 hover:border-white/50;
     }
 
 

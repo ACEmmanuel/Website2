@@ -9,7 +9,7 @@ const Work = () => {
                 <div className='size-[100%] bg-gradient-to-t from-black absolute bottom-0 pt-[83%] md:pt-[88%] p-5'>
                   <div className='flex flex-row justify-between items-center'>
 
-                    <div className='flex flex-row justify-between items-center text-blue-400'>
+                    <div className='flex flex-row justify-between items-center text-blue-200'>
                       <p className=' text-nowrap mr-6 font-bold text-lg text-white hidden md:block'>CODE USED</p>
                       <div><i class='bx bxl-html5 text-2xl md:text-3xl'></i></div>
                       <div><i class='bx bxl-tailwind-css text-2xl md:text-3xl'></i></div>
@@ -31,7 +31,7 @@ const Work = () => {
                 <div className='size-[100%] bg-gradient-to-t from-black absolute bottom-0 pt-[83%] md:pt-[88%] p-5'>
                   <div className='flex flex-row justify-between items-center'>
 
-                    <div className='flex flex-row justify-between items-center text-blue-400'>
+                    <div className='flex flex-row justify-between items-center text-blue-200'>
                       <p className=' text-nowrap mr-6 font-bold text-lg text-white hidden md:block'>CODE USED</p>
                       <div><i class='bx bxl-html5 text-2xl md:text-3xl'></i></div>
                       <div><i class='bx bxl-tailwind-css text-2xl md:text-3xl'></i></div>

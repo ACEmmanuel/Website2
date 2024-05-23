@@ -27,10 +27,10 @@ const Header = () => {
                         
                         <nav className="">
                             <ul className="hidden gap-8 md:flex text-md">
-                                <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#home">Home</a></li>
-                                <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#about">About</a></li>
-                                <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#project">Portfolio</a></li>
-                                <li className="hover:text-blue-400 cursor-pointer hover:font-bold"><a href="#contact">Contact</a></li>
+                                <li className="hover:text-blue-400 cursor-pointer font-bold"><a href="#home">Home</a></li>
+                                <li className="hover:text-blue-400 cursor-pointer font-bold"><a href="#about">About</a></li>
+                                <li className="hover:text-blue-400 cursor-pointer font-bold"><a href="#project">Portfolio</a></li>
+                                <li className="hover:text-blue-400 cursor-pointer font-bold"><a href="#contact">Contact</a></li>
                             </ul>
 
 

@@ -14,9 +14,8 @@ const Contact = () => {
                         <div className="w-[100%] md:w-[55%] lg:pr-7 border-b border-slate-700 pb-8 md:border-none">
 
 
-                            <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+                            <form className="space-y-6" action="https://formspree.io/f/mwkgjqag" method="POST">
 
-                                <input type="hidden" name="access_key" value="010493d8-a8a5-4340-8df3-cc813b83267d" />
 
                                 <div className="space-y-3">
                                     <label className="label ">Name</label>
@@ -30,10 +29,10 @@ const Contact = () => {
                                 
                                 <div className="space-y-3">
                                     <label className="label" for="message">Message</label>
-                                    <textarea id="message" name="message" placeholder="Enter Your Message Here..." cols="30" rows="10" className="w-full border border-slate-700 bg-gray-800 outline-none pl-4 pt-4 resize-none"></textarea>
+                                    <textarea id="message" name="message" placeholder="Enter Your Message Here..." cols="30" rows="10" className="w-full border rounded-sm border-slate-700 bg-gray-800 outline-none pl-4 pt-4 resize-none"></textarea>
                                 </div>
                             
-                                <button className="btn flex items-center md:text-md" type="submit" value="SEND">Send it <i class='bx bxs-chevrons-right ml-2'></i> </button>
+                                <button className="btn border-4 border-gray-400 hover:border-white/50" type="submit" value="SEND">Send it <i class='bx bxs-chevrons-right ml-2'></i> </button>
                             </form>
                         </div>
 
@@ -69,3 +68,26 @@ const Contact = () => {
 };
 
 export default Contact
+
+
+                            // <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+
+                            //     <input type="hidden" name="access_key" value="010493d8-a8a5-4340-8df3-cc813b83267d" />
+
+                            //     <div className="space-y-3">
+                            //         <label className="label ">Name</label>
+                            //         <input className="text-box" type="text" name="name" placeholder="Enter Your Name..." required></input>
+                            //     </div>
+
+                            //     <div className="space-y-3">
+                            //         <label className="label">Gmail</label>
+                            //         <input className="text-box" type="email" name="email" placeholder="Enter Your Email..." required></input>
+                            //     </div>
+                                
+                            //     <div className="space-y-3">
+                            //         <label className="label" for="message">Message</label>
+                            //         <textarea id="message" name="message" placeholder="Enter Your Message Here..." cols="30" rows="10" className="w-full border border-slate-700 bg-gray-800 outline-none pl-4 pt-4 resize-none"></textarea>
+                            //     </div>
+                            
+                            //     <button className="btn border-4 border-gray-400 hover:border-white/50" type="submit" value="SEND">Send it <i class='bx bxs-chevrons-right ml-2'></i> </button>
+                            // </form>

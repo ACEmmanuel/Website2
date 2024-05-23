@@ -14,7 +14,7 @@ const Hero = () => {
 
 
                             <div className="flex md:flex-row justify-center mt-[1.2rem] lg:mt-[2rem]"> 
-                                <a href="#contact"> <div className="btn border-4 border-gray-400 hover:border-white">Hire Me</div> </a>
+                                <a href="#contact"> <div className="btn border-4 border-gray-400 hover:border-white/50">Hire Me</div> </a>
                             </div>  
                     </div>  
                     {/* <div className="max-w-md lg:w-[40%]" >

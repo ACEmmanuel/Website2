@@ -1,15 +1,41 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Exp = () => {
+
+     // Define animation variants for staggered children
+     const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.2, // Time between each child's animation
+            delayChildren: 0.3,   // Delay before the first child starts
+        },
+        },
+    };
+    
+    const itemVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+    };
+
     return (
         <>
-            <section className="container mx-auto mt-[6rem] lg:mt-[10rem]" id="exp">
+            <motion.section className="container mx-auto mt-[6rem] lg:mt-[10rem]" id="exp"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.4 }}
+            variants={containerVariants}
+            >
                 <div className="w-full px-5">
                     <h1 className="underline-head mt-10 text-2xl lg:text-3xl font-medium font-rale">My Experience</h1>
                     <p className="mt-1 text-[17px] text-white/80">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
 
                                 {/* double column */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-start items-start mt-14">
+                    <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-start items-start mt-14" 
+                    variants={itemVariants}
+                    >
 
 
                                 {/* first section */}
@@ -94,9 +120,9 @@ const Exp = () => {
                         </div>
 
 
-                </div>
+                </motion.div>
             </div>
-        </section>
+        </motion.section>
         </>
     )
 }

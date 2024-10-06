@@ -1,16 +1,40 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
+
+      // Define animation variants for staggered children
+   const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+    opacity: 1,
+    transition: {
+        staggerChildren: 0.2, // Time between each child's animation
+        delayChildren: 0.3,   // Delay before the first child starts
+    },
+    },
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+};
+
     return (
         <>
-            <section className="container mx-auto px-5 mt-[5rem] lg:mt-[8rem] mb-8" id="contact" >
+            <motion.section className="container mx-auto px-5 mt-[5rem] lg:mt-[8rem] mb-8" id="contact" 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.4 }}
+            variants={containerVariants}
+            >
                 <div className="w-full">
                     <div className="underline-head mt-10 text-2xl lg:text-3xl font-medium font-rale ">Hire me</div>
                     <p className="mt-1 text-[17px] text-white/80">Contact me through the following means</p>
 
 
                     
-                    <div className="flex flex-col lg:flex-row justify-items-start items-start mt-8 gap-x-20">
+                    <motion.div className="flex flex-col lg:flex-row justify-items-start items-start mt-8 gap-x-20" variants={itemVariants}>
                         <div className="w-[100%] md:w-[55%] lg:pr-7 border-b border-slate-700 pb-8 md:border-none">
 
 
@@ -60,9 +84,9 @@ const Contact = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
                 </div>
-            </section>
+            </motion.section>
         </>
     )
 };
